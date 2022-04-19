@@ -29,7 +29,7 @@
   }  
   return false;  
  }  
- function createMatrix(w, h) {  
+ function createMatrix(w, h) {      //this is allowing "W" on your keyboard to change the puzzle piece's orientation
   const matrix = [];  
   while (h--) {  
    matrix.push(new Array(w).fill(0));  
