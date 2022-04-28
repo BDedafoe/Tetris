@@ -1,11 +1,21 @@
 body {
-    background: #202028;
-    color: #08e5f5;
+    background-image: url(tetris-background.jpg);
+    color: hsl(305, 94%, 50%);
     font-family: fantasy, papyrus;
     font-size: 1.5em;
     text-align: center;
 }
 canvas {
-    border: solid 0.2em #fff;
+    border: solid 0.2em lime;
     height: 90vh;
+}
+
+div {
+    color: aqua;
+}
+
+h5 {
+    color: black;
+    text-shadow: 2px 2px white;
+    font-family: serif;
 }
